@@ -1,4 +1,4 @@
-# Emplazamientos de Red Telco – Pipeline Databricks (Bronze–Silver–Gold)
+# Emplazamientos de Red Telco – Databricks Pipeline Medallón (Bronze–Silver–Gold)
 
 Este proyecto implementa un pipeline de datos en Databricks para unificar tres sistemas de emplazamientos de red telco: **Centros TX**, **Sitios RAN** e **Infraestructura**.
 Históricamente cada módulo operaba por separado; aquí se construye un modelo único de emplazamientos que permite analizar estados, antigüedad de actualizaciones y disponibilidad por región y área operativa.
