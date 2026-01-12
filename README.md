@@ -52,9 +52,12 @@ En la carpeta `sql/` se incluyen los scripts SQL que definen las vistas Silver y
 
 ## Casos de uso de negocio
 
-El modelo unificado de emplazamientos permite responder preguntas como:
-
-
+El modelo unificado de emplazamientos permite responder preguntas y obtener hallazgaos:
+¿Qué centros están pendientes en cada módulo, con su última fecha y localización OYM?
+¿Cuántos centros pendientes tiene cada región / cabecera por módulo?
+¿Qué centros tienen estados distintos entre módulos (por ejemplo, cerrado en uno y pendiente en otro)
+Evolución Mensual de Altas/Bajas por Módulo
+Evolución Mensual de Emplazamientos No Productivos por Módulo
 
 Este pipeline sirve como base para un tablero de Power BI que consuma directamente las tablas Gold.
 
