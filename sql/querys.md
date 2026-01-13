@@ -1,5 +1,5 @@
-CAPA SILVER:
--- Capa SILVER: emplazamientos por módulo, conservando estado y fecha de modificación de cada modulo
+## CAPA SILVER:
+-- emplazamientos por módulo, conservando estado y fecha de modificación de cada modulo
 
 DROP TABLE IF EXISTS silver_emplazamientos_modulo;
 
@@ -51,7 +51,7 @@ FROM raw_emplazamientos_infra
 --WHERE estado_infra <> "Baja de Necesidad"
 WHERE estado_infra NOT IN ('Baja de Necesidad','Reserva estrategica');
 
-CAPA GOLD:
+## CAPA GOLD:
 
 DROP TABLE IF EXISTS gold_centros_pendientes_por_modulo;
 
